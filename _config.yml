@@ -15,12 +15,14 @@
 # in the templates via {{ site.myvariable }}.
 title: "Karol Nawrot"
 email: "karol99nawrot@gmail.com"
-description: "An CS student who just enjoys writing code"
+description: "I'm a CS student who likes designing things. Welcome to my website. <br>"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://physalium.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ""
 github_username: "physalium"
 medium_username: ""
+section_title: "My latest projects"
+section_subtitle: "Here's what I've been working on lately"
 
 # Build settings
 markdown: kramdown
@@ -62,7 +64,7 @@ pagination:
   sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: "posts"
+  category: ""
 
   # Optional, the default tag to use, omit to disable
   tag: ""
@@ -91,10 +93,11 @@ pagination:
 footer_text: "© 2020 Karol Nawrot"
 admin_name: "Karol nawrot"
 google_analytics: "" # Update with your own tracking ID
-enable_contact: false
+enable_contact: true
 
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
   - { url: "/", text: "Home" }
-  - { url: "/about", text: "About" }
+  - { url: "/CV", text: "CV" }
+  # - { url: "/about", text: "About" }
