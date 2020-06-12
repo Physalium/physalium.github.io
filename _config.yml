@@ -99,5 +99,4 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: "/", text: "Home" }
-  - { url: "/CV", text: "CV" }
   # - { url: "/about", text: "About" }
