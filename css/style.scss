@@ -73,10 +73,10 @@ button.btn, input.btn {
   font-weight: 600;
   &:hover, &.btn-default:hover {
     background-color: white;
-    border: solid 1px #b0c5d2;
+    border: solid 1px #a1a2a3;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
+    box-shadow: 0 2px 0 #b0c5d2;
   }
   i {
     padding-right: 0.5em;
@@ -96,10 +96,11 @@ button.btn, input.btn {
   }
 }
 
+
 .section-jump {
   position: relative;
   top: 0;
-  color: #C8D7E1;
+  color: rgb(0, 0, 0);
   margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
@@ -228,7 +229,7 @@ button.btn, input.btn {
     top: 1.35em;
     width: 3em;
     height: 3px;
-    background-color: #ECEFF1;
+    background-color: rgb(146, 146, 146);
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
